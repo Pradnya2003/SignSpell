@@ -224,9 +224,7 @@ export default function Home() {
         <a href="mailto:pradnya08062003@gmail.com" target="_blank" rel="noopener noreferrer">
           <img className="h-[30px] w-[30px] hover:scale-110 transition-transform" src={email} alt="Email" />
         </a>
-        <a href="https://x.com/?lang=en" target="_blank" rel="noopener noreferrer">
-          <img className="h-[30px] w-[30px] hover:scale-110 transition-transform" src={x} alt="X" />
-        </a>
+        
       </div>
 
       {/* Footer Text */}
