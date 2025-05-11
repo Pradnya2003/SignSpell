@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import background from "../assets/design2.png";
-
 import pic from "../assets/kavithamam.jpg";
 import surya from "../assets/surya.jpg"
 import srini from "../assets/srini.png"
@@ -154,8 +153,8 @@ export default function Home() {
     {/* Grid on the second line */}
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
       {/* Card 1 */}
-      <div onClick={Text} className="w-60 h-80 bg-white rounded-lg shadow-lg text-center transition-transform">
-        <img className="h-60 w-full object-cover mx-auto" src={pradnya} alt="Text Translation" />
+      <div onClick={Text} className="w-60 h-80 bg-white  rounded-lg shadow-lg text-center transition-transform">
+        <img className="h-60 w-full rounded-sm object-cover mx-auto" src={pradnya} alt="Text Translation" />
         <div className="text-xl p-6 text-left">
           <h1 className="text-[20px] font-semibold text-center text-green-500 transition-colors mb-2">PRADNYA K T</h1>
         </div>

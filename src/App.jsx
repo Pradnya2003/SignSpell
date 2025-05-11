@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Login from "./components/Login";
 import Services from "./components/Services";
@@ -10,7 +10,7 @@ import Signup from "./components/Signup";
 
 function App() {
   return (
-   <Router basename="/SignSpell">
+   <Router>
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -24,7 +24,8 @@ function App() {
         <Route path="/Voice" element={<Voice />} />
         <Route path="/Text" element={<Text />} />
       </Routes>
-    </Router>
+      
+ </Router>
   );
 }
 
