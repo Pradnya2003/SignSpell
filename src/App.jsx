@@ -6,23 +6,23 @@ import Services from "./components/Services";
 import Voice from "./components/Voice";
 import Video from "./components/Video"; 
 import Text from "./components/Text";
-import Signup from "./components/Signup"; // Assuming you meant Text.jsx
-
+import Signup from "./components/Signup";
 
 function App() {
   return (
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home/>} />
+   <Router basename="/SignSpell">
+
+      <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/services/Voice" element={<Voice />} />
-        <Route path="/services/Video" element={<Video/>} />
-        <Route path="/services/Text" element={<Text/>} />
-        <Route path="/Login" element={<Login/>} />
-        <Route path="/Signup" element={<Signup/>} />
-        <Route path="/Video" element={<Video/>} />
-        <Route path="/Voice" element={<Voice/>} />
-        <Route path="/Text" element={<Text/>} />
+        <Route path="/services/Video" element={<Video />} />
+        <Route path="/services/Text" element={<Text />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Signup" element={<Signup />} />
+        <Route path="/Video" element={<Video />} />
+        <Route path="/Voice" element={<Voice />} />
+        <Route path="/Text" element={<Text />} />
       </Routes>
     </Router>
   );

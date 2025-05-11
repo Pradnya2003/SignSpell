@@ -35,7 +35,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto p-4  ">
         <div className="flex justify-between items-center">
           <div className="flex gap-4 items-center ">
-         <img className="w-15 h-15 " src={white} alt="" />
+         <img className="w-15 h-13 " src={white} alt="" />
           <div className="text-green-500 text-[28px] flex justify-center items-center font-bold m xl:px-0 py-0 "> SIGN SPELL</div>
           </div>
           <ul className="flex justify-center items-center space-x-7 pl-0 py-0 ">
