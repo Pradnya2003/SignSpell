@@ -54,15 +54,15 @@ export default function Home() {
 
   {/* Content */}
   <div className="relative z-10 flex flex-col justify-center items-start h-full px-4  sm:px-6 md:px-10 lg:px-20 py-20">
-    <h1 className="flex text-3xl pt-50 sm:text-4xl md:text-5xl font-bold text-green-400 mb-4 leading-tight">
+    <h1 className="flex text-3xl pl-20 pt-50 sm:text-4xl md:text-5xl font-bold text-green-400 mb-4 leading-tight">
       SIGN SPELL
     </h1>
-    <p className="text-base sm:text-lg md:text-xl text-white mb-6 max-w-md md:max-w-lg">
+    <p className="text-base pl-20 sm:text-lg md:text-xl text-white mb-6 max-w-md md:max-w-lg">
       AI-powered Sign Language Translator
     </p>
     <Link
       to="/services"
-      className="bg-green-500 hover:bg-green-600 text-white py-2 px-5 rounded-lg font-semibold text-sm md:text-base transition duration-300"
+      className="bg-green-500 ml-20 hover:bg-green-600 text-white py-2 px-5 rounded-lg font-semibold text-sm md:text-base transition duration-300"
     >
       Try Now
     </Link>
